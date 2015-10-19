@@ -1,0 +1,19 @@
+body{
+	text-align:center;
+}
+
+h1{
+	font-family:Titillium Web;
+	size:30px;
+}
+
+p{
+	font-family:Hind;
+	size:18px;
+}
+
+.img-circle{
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
