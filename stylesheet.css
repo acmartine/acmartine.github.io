@@ -1,19 +1,46 @@
 body{
 	text-align:center;
-}
-
-h1{
 	font-family:Titillium Web;
+	background:url("https://cloud.githubusercontent.com/assets/14902199/10745975/afb35432-7c1c-11e5-85a4-174ba6b15079.jpeg");
+	background-size:cover;
+}
+#container{
+	width:800px;
+	margin:0 auto;
+}
+#main {
+	padding:10px;
+	background: linear-gradient(to bottom, #F4DDA8, rgba(255,0,0,0));
+}
+#main h1{
 	size:30px;
 }
-
-p{
+#main p{
 	font-family:Hind;
 	size:18px;
 }
-
 .img-circle{
 	border-radius:50%;
 	width:200px;
 	height:200px;
+}
+.small{
+	font-size:14px;
+}
+#main li{
+	padding: 0 10px;
+	display:inline-block;
+}
+#main a{
+	text-decoration:none;
+	font-family:Dosis, sans-serif;
+	color:#197E43;
+	size:50px;
+	font-weight:800;
+}
+#main a:hover{
+	color:#81AEB4;
+}
+#contact a:visited:hover{
+	color:#81AEB4;
 }
