@@ -10,7 +10,8 @@ body{
 }
 #main {
 	padding:10px;
-	background: linear-gradient(to bottom, #F4DDA8, rgba(255,0,0,0));
+	/*background: linear-gradient(to bottom, #F4DDA8, rgba(255,0,0,0));*/
+	background:rgba(244, 221, 168, 0.5);
 }
 #main h1{
 	size:30px;
