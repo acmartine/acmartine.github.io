@@ -1,47 +1,182 @@
+* { /*Universal selector*/
+	box-sizing:border-box; /*Keeps padding within the dimensions specified by you*/
+}
 body{
 	text-align:center;
-	font-family:Titillium Web;
-	background:url("https://cloud.githubusercontent.com/assets/14902199/10745975/afb35432-7c1c-11e5-85a4-174ba6b15079.jpeg");
+	background:url("images/desk-spread.jpeg");
 	background-size:cover;
+	background-attachment:fixed;
 }
-#container{
-	width:800px;
-	margin:0 auto;
+h1{
+	font-family: Megrim;
+	font-size: 44px;
 }
-#main {
-	padding:10px;
-	/*background: linear-gradient(to bottom, #F4DDA8, rgba(255,0,0,0));*/
-	background:rgba(244, 221, 168, 0.5);
+h2{
+    font-family: Megrim;
 }
-#main h1{
-	size:30px;
-}
-#main p{
-	font-family:Hind;
-	size:18px;
+.logo{
+    width:75%;
+    height:75%;
 }
 .img-circle{
 	border-radius:50%;
-	width:200px;
-	height:200px;
+	width:100px;
+	height:100px;
 }
 .small{
 	font-size:14px;
 }
-#main li{
-	padding: 0 10px;
-	display:inline-block;
+.threesix{
+	width:36px;
+	height:36px;
 }
-#main a{
+.clear{
+	clear:both;
+}
+#container{
+	width:850px;
+	margin:0 auto;
+}
+#container #left{
+    width:195px;
+    float:left;
+    position:fixed;
+    margin-top:1px;
+}
+#container .nav{
+	background:rgba(224, 221, 168, 0.5);
+    padding:10px;
+    border: 1px dashed #2A4445;
+}
+.nav a{
+	color: #000;
 	text-decoration:none;
-	font-family:Dosis, sans-serif;
-	color:#197E43;
+	font-family: 'Titillium Web', sans-serif;
 	size:50px;
 	font-weight:800;
 }
-#main a:hover{
-	color:#81AEB4;
+.nav a:hover{
+	color: #1D8D80;
+	transition: .5s;
 }
-#contact a:visited:hover{
-	color:#81AEB4;
+.nav ul{
+	list-style:none; /*Eliminates bullet points in ul*/
+	padding:0; /*Removes indentation*/
+	margin:0; /*Removes indentation*/
 }
+.nav li{
+	padding:10px 0;
+}
+#container #right{
+	float:right;
+	display:block;
+	width:600px;
+}
+#container #right a{
+    color: #34B3A4;
+    text-decoration: none;
+}
+#container #right a:hover{
+    color: #333;
+    transition: .5s;
+}
+#container .contentbox {
+    border: 1px dashed #2A4445;
+    padding:10px;
+	background:rgba(244, 221, 168, 0.5);
+	margin-bottom:20px; /*10px distance between divs*/
+}
+#container .contentbox p{
+	font-family:Titillium Web;
+	size:18px;
+}
+#footer li{
+	display:inline;
+}
+/*Social Icons*/
+@font-face {
+    font-family: 'si';
+    src: url('soc-icons/socicon.eot');
+    src: url('soc-icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('soc-icons/socicon.woff') format('woff'),
+         url('soc-icons/socicon.ttf') format('truetype'),
+         url('soc-icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #999;
+    background-color: #000000;
+}
+.soc a:hover {
+    z-index: 2;
+    background-color:#363636 !important;
+}
+.soc-icon-last{
+    margin:0 !important;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-email1:before {
+    content:'<';
+}
+/*End CSS for social icons*/

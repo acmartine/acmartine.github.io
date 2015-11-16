@@ -1,33 +1,78 @@
 <!DOCTYPE html>
 
 <head>
-	<title>Ariele Martinez | Web Design | New York City</title>
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans|Titillium+Web|Hind' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+	<title>Ariele Martinez || NYC-Based Web Designer</title>
+	<link href='https://fonts.googleapis.com/css?family=Syncopate:400,700|Megrim|Titillium+Web' rel='stylesheet' type='text/css'>
 	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
 	<div id="container">
-		<div id="main">
-			<h1>Ariele Martinez&nbsp;&nbsp;<span class="small">|</span>&nbsp;&nbsp;Web Design</h1>
-
-			<img src="http://pulsepittsburgh.org/wordpress/wp-content/uploads/2013/04/ariele.jpg" class="img-circle" />
-			<h2>Hello World!</h2>
-			<p>My name is Ariele Martinez and I am enrolled in the Web Design Track at Startup Institute New York. I am a 
-				Brooklynite who loves stargazing, drinking tea, and playing with cats. My background includes a BA in Psychology 
-				from Bryn Mawr College and experience in education and non-profit development. I fully love coding and I can't wait
-				to learn more about front-end development and user-centered design principles!</p>
-
-				<h2>Contact Me</h2>
+		<div id="left">
+			<div class="nav"><!--Formerly <nav></nav>-->
+				<h1>Ariele<br> Martinez</h1>
+				<br>
 				<ul>
-					<li><a href="http://www.linkedin.com/in/arielemartinez">LinkedIn</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="http://www.github.com/acmartine">GitHub</a></li>
-					<li><a href="#">Startup Institute</a></li>
-					<li><a href="#">AngelList.co</a></li>
+					<li><a href="#about" class="smoothScroll">About</a></li>
+					<li><a href="#cv" class="smoothScroll">Resume</a></li>
+					<li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+					<li><a href="#contact" class="smoothScroll">Contact</a></li>
+					<!--<li><a href="#blog" class="smoothScroll">Blog</a></li>-->
+				</ul>
+				<ul class="soc">
+					<li><a class="soc-twitter" href="http://www.twitter.com/arielebydesign"></a></li>
+					<li><a class="soc-linkedin" href="http://www.linkedin.com/in/arielemartinez"></a></li>
+					<li><a class="soc-github" href="http://www.github.com/acmartine"></a></li>
+					<li><a class="soc-email1 soc-icon-last" href="mailto:acmartine@gmail.com"></a></li>
 				</ul>
 			</div>
-		</div>
-	</body>
-	</html>
+		</div><!--End left div-->
+
+		<div id="right">
+			<div class="contentbox" id="about">
+				<a name="about"></a> <!--Formerly <main></main>-->
+				<h1>About</h1>
+				<img src="http://pulsepittsburgh.org/wordpress/wp-content/uploads/2013/04/ariele.jpg" class="img-circle" alt="Profile photo" />
+				<p>I am a Brooklynite studying Web Design at Startup Institute who loves stargazing, drinking tea, and playing with cats. My background includes a BA in Psychology from Bryn Mawr College and experience in non-profit development. I am currently accepting clients - please <a href="#contact" class="smoothScroll">contact</a> me for more information.
+				</p>
+				<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia ullamcorper felis eget laoreet. Aliquam lobortis dolor nec tempus viverra. Nulla rutrum rutrum mattis. Duis ac congue purus. Phasellus lobortis mauris neque, eu commodo lacus ullamcorper vel. Suspendisse porttitor orci turpis, vel aliquam arcu blandit ac. Praesent tristique, lectus et imperdiet cursus, purus erat congue quam, accumsan consectetur dolor massa eu tellus. Praesent semper, velit ut volutpat pharetra, arcu enim bibendum elit, vitae dictum lectus lorem sed odio. Mauris egestas quam vel arcu hendrerit, euismod ultricies magna dictum. Nam euismod maximus metus, ut luctus libero faucibus quis. Aliquam erat volutpat. Ut ut dui non ante laoreet semper vel at purus. Morbi eget justo aliquet, commodo urna quis, varius felis. Curabitur leo lectus, pulvinar vitae convallis id, faucibus non massa.
+				</p>-->
+
+			</div> <!--End about-->
+			<div class="contentbox" id="resume">
+				<h1>Resume</h1>
+			</div>
+
+			<!--<div class="clear"></div>-->
+			<div class="contentbox" id="portfolio">
+				<a name="portfolio"></a>
+				<h1>Portfolio</h1>
+				<p>Coming shortly!</p>
+				<!--<p>Sed pulvinar erat non leo aliquam, ut facilisis purus tincidunt. Morbi in odio sodales, ultricies sapien euismod, hendrerit lectus. Ut augue felis, ultricies non elementum quis, pulvinar quis sapien. Donec quis commodo libero, nec rutrum nisl. Integer accumsan, ex quis placerat interdum, ligula nulla dignissim nisl, et dignissim lorem quam sed nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus vitae egestas lacus. Nunc id sapien aliquet, vestibulum dui at, finibus risus. Vestibulum malesuada lorem sit amet ipsum feugiat dictum. Sed mattis massa et leo maximus, ac ullamcorper massa bibendum. Suspendisse ex elit, feugiat a ipsum a, venenatis mattis arcu. Aliquam ac ultrices leo. Duis faucibus lobortis dui, ac condimentum metus pharetra sed.
+				</p>-->
+			</div>
+			<div class="contentbox" id="footer"> <!--Formerly <footer></footer>-->
+				<a name="contact"></a>
+				<h1>Contact Me</h1>
+				<p>If you wish to get in touch with me regarding any inquiries, please complete the form below and I will respond to you as quickly as possible.
+				</p>
+				<form action="//formspree.io/acmartine@gmail.com" method="post">
+					Name<input type="text" name="name" size="60"><br>
+					Email<input type="text" name="email" size="60"><br>
+					Reason for Contact<select name="Reason" size="1">
+					<option selected>Question
+						<option>Service Request
+							<option>Other
+							</select><br>
+							Message<textarea name="message" rows=6 cols=40></textarea><br>
+							<input type="submit"><input type="reset">
+						</form>
+					</div> <!--End footer-->
+				</div><!--End right div-->
+
+			</div><!--End container div-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="smoothscroll.js"></script>
+		</body>
+		</html>
