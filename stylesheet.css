@@ -1,76 +1,71 @@
-* { /*Universal selector*/
-	box-sizing:border-box; /*Keeps padding within the dimensions specified by you*/
+* { 
+	box-sizing:border-box;
 }
 body{
 	text-align:center;
-	background:url("images/desk-spread.jpeg");
-	background-size:cover;
-	background-attachment:fixed;
+    padding: 0;
+    margin: 0;
 }
-h1{
-	font-family: Megrim;
-	font-size: 44px;
+h3{
+    font-family: 'Source Sans Pro';
 }
-h2{
-    font-family: Megrim;
-}
-.logo{
-    width:75%;
-    height:75%;
+form{
+    font-family: 'Source Sans Pro';
 }
 .img-circle{
-	border-radius:50%;
-	width:100px;
-	height:100px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
-.small{
-	font-size:14px;
-}
-.threesix{
-	width:36px;
-	height:36px;
-}
-.clear{
-	clear:both;
+.title{
+    margin: 3em auto 1em auto;
 }
 #container{
-	width:850px;
-	margin:0 auto;
+	width: 950px;
+	margin: 0 auto;
 }
 #container #left{
-    width:195px;
-    float:left;
-    position:fixed;
-    margin-top:1px;
+    width: 120px;
+    float: left;
+    position: fixed;
 }
 #container .nav{
-	background:rgba(224, 221, 168, 0.5);
-    padding:10px;
-    border: 1px dashed #2A4445;
+	background-color: #E09C01;
+    background-attachment: fixed;
+    padding: 10px;
+    height: 100vh;
+    font-family: 'Source Sans Pro';
 }
-.nav a{
-	color: #000;
-	text-decoration:none;
-	font-family: 'Titillium Web', sans-serif;
-	size:50px;
-	font-weight:800;
+.nav a.round{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1em;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000
 }
-.nav a:hover{
-	color: #1D8D80;
-	transition: .5s;
+.nav a.round:hover{
+	color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    transition: .3s;
 }
 .nav ul{
-	list-style:none; /*Eliminates bullet points in ul*/
-	padding:0; /*Removes indentation*/
-	margin:0; /*Removes indentation*/
+	list-style: none; /*Eliminates bullet points in ul*/
+	padding: 0; /*Removes indentation*/
+	margin: 0; /*Removes indentation*/
 }
 .nav li{
-	padding:10px 0;
+	padding: 10px 0;
 }
 #container #right{
-	float:right;
-	display:block;
-	width:600px;
+	float: right;
+	display: block;
+	width: 830px;
 }
 #container #right a{
     color: #34B3A4;
@@ -81,17 +76,31 @@ h2{
     transition: .5s;
 }
 #container .contentbox {
-    border: 1px dashed #2A4445;
-    padding:10px;
-	background:rgba(244, 221, 168, 0.5);
-	margin-bottom:20px; /*10px distance between divs*/
+    padding: 10px;
 }
 #container .contentbox p{
-	font-family:Titillium Web;
-	size:18px;
+	font-family: 'Source Sans Pro';
+	size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#container #header{
+    background-color: #524E4E;
+    background-image: url('images/yellowflora.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 310px;
+    padding-top: 3em;
+}
+#container #header p{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.65px;
+    line-height: 31px;
 }
 #footer li{
-	display:inline;
+	display: inline;
 }
 /*Social Icons*/
 @font-face {
@@ -103,7 +112,6 @@ h2{
          url('soc-icons/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
@@ -112,14 +120,13 @@ h2{
     }
 }
 .soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
+    overflow: hidden;
+    margin: 0; padding: 0;
+    list-style: none;
 }
 .soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
+    display: inline-block;
+    zoom: 1;
 }
 .soc li a {
     font-family:si!important;
