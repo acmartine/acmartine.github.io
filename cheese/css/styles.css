@@ -8,9 +8,9 @@ body {
 }
 .container {
 	background: #000;
-	width: 100%; /*100% width of page*/
-	display: block; /*Keeps container in the middle of page*/
-	margin: 0 auto; /*Keeps container in the middle of page*/
+	width: 100%;
+	display: block; 
+	margin: 0 auto;
 }
 /*Navigation Bar (Horizontal, Fixed)*/
 #navigation {
@@ -41,8 +41,9 @@ body {
 }
 #navigation a:hover {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
 	font-weight: bold;
+	transition: 0.5s;
 }
 #navigation a:active {
 	color:yellow;
@@ -52,12 +53,13 @@ body {
 } /*same as unvisited link color*/
 #navigation a:visited:hover {
 	color:#fff;
+	transition: 0.5s;
 }
 /*Main Banner*/
 #banner {
 	width: 100%;
-	height: 100vh; /*full height of browser window*/
-	background-image: url("../images/veggie.jpg");
+	height: 100%;
+	background-image: url("../images/sandwich.jpg");
 	background-size: cover;
 	background-position: 0 50%;
 	background-attachment: fixed;
@@ -73,13 +75,29 @@ body {
 	text-align: center;
 	text-shadow: 5px 6px #333333;
 	margin-top: 0;
+	margin-bottom: 0;
 }
 #banner p {
 	color: #FFFCF0;
 	font-weight: 400;
-	font-size: 24px;
+	font-size: 20px;
 	text-align: center;
 	text-shadow: 1px 2px #333;
+}
+h2{
+	color: #fff;
+	font-family: 'IM Fell Great Primer SC';
+	font-size: 2em;
+	margin: 0;
+}
+#banner h2{
+	text-align: center;
+	text-shadow: 1px 2px #333;
+}
+h3{
+	color: #fff;
+	font-family: 'IM Fell Great Primer SC';
+	font-size: 1.5em;	
 }
 hr{
 	background-image: linear-gradient(to right, rgba(255,255,255,0.75), rgba(0,0,0,0), rgba(255,255,255,255.75));
@@ -101,23 +119,25 @@ hr{
 	text-align: center;
 	background-color: #000;
 }
-#main h1 , h2{
-	color: #fff;
+#main h2{
+	padding-bottom: 1rem;
 }
 #main p{
-	font-size: 20px;
-	width: 100%;
+	font-size: 16px;
+	max-width: 700px;
 	text-align: center;
+	margin: 0 auto;
+	padding-top: 1rem;
 }
 #menu{
-	background-image: url("../images/cress.jpg");
+	background-image: url("../images/veggie.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
 	text-align: center;
 }
-#menu h1{
-	color: #fff;
+#menucont{
+	display: inline-block;
 }
 .menucol{
 	float: left;
