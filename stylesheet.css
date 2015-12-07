@@ -2,7 +2,6 @@
 	box-sizing:border-box;
 }
 body{
-	text-align:center;
     padding: 0;
     margin: 0;
 }
@@ -16,27 +15,28 @@ form{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    margin: 1em auto;
+    display: block;
 }
 .title{
     margin: 3em auto 1em auto;
+    display: block;
 }
 #container{
 	width: 950px;
 	margin: 0 auto;
 }
-#container #left{
-    width: 120px;
+#left{
+    width: 190px;
     float: left;
     position: fixed;
-}
-#container .nav{
+    height: 100%;
 	background-color: #E09C01;
-    background-attachment: fixed;
     padding: 10px;
-    height: 100vh;
     font-family: 'Source Sans Pro';
+    text-align: center;
 }
-.nav a.round{
+nav a.round{
     display: block;
     width: 100px;
     height: 100px;
@@ -48,60 +48,68 @@ form{
     text-decoration: none;
     background-color: #000
 }
-.nav a.round:hover{
+nav a.round:hover{
 	color: #fff;
     text-decoration: none;
     background-color: #333;
     transition: .3s;
 }
-.nav ul{
-	list-style: none; /*Eliminates bullet points in ul*/
-	padding: 0; /*Removes indentation*/
-	margin: 0; /*Removes indentation*/
+nav ul{
+	list-style: none; 
+	padding: 0; 
+	margin: 0;
 }
-.nav li{
+nav li{
+    display: inline-block;
 	padding: 10px 0;
 }
-#container #right{
+footer{
+    margin-top: 2em;
+}
+footer li{
+    display: inline-block;
+}
+#right{
 	float: right;
 	display: block;
-	width: 830px;
+	width: 760px;
 }
-#container #right a{
+#right a{
     color: #34B3A4;
     text-decoration: none;
 }
-#container #right a:hover{
+#right a:hover{
     color: #333;
     transition: .5s;
 }
-#container .contentbox {
-    padding: 10px;
-}
-#container .contentbox p{
-	font-family: 'Source Sans Pro';
-	size: 18px;
-    max-width: 700px;
-    margin: 0 auto;
-}
-#container #header{
+#header{
     background-color: #524E4E;
     background-image: url('images/yellowflora.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 310px;
     padding-top: 3em;
+    text-align: center;
 }
-#container #header p{
+#header p{
     font-family: 'Source Sans Pro';
     font-size: 22px;
     color: #FFFFFF;
     letter-spacing: 0.65px;
     line-height: 31px;
 }
-#footer li{
-	display: inline;
+.contentbox {
+    padding: 10px;
 }
+.contentbox p{
+	font-family: 'Source Sans Pro';
+	size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
 /*Social Icons*/
 @font-face {
     font-family: 'si';
