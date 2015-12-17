@@ -2,7 +2,7 @@
 <head>
 	<title>Ariele Martinez || NYC-Based Web Designer</title>
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -17,37 +17,47 @@
 				<li><a href="#contact" class="round smoothScroll">Contact</a></li>
 			</nav>
 			<footer>
-				<li><a href="http://www.twitter.com/arielebydesign"><img src="images/twitter.png"></a></li>
-				<li><a href="http://www.linkedin.com/in/arielemartinez"><img src="images/linkedin.png"></a></li>
-				<li><a href="http://www.github.com/acmartine"><img src="images/github.png"></a></li>
+				<li><a href="http://www.twitter.com/arielebydesign" target="_blank"><img src="images/twitter.png"></a></li>
+				<li><a href="http://www.linkedin.com/in/arielemartinez" target="_blank"><img src="images/linkedin.png"></a></li>
+				<li><a href="http://www.github.com/acmartine" target="_blank"><img src="images/github.png"></a></li>
 			</footer>
-		</div><!--End left div-->
-
+		</div>
+		<!--End left div-->
+		<!--Begin right div-->
 		<div id="right">
 			<div class="contentbox" id="header">
 				<img src="images/am-logo.png" class="title" />
 				<p>UX/UI Design &plus; Front-End Development</p>
 			</div>
 			<div class="contentbox" id="about">
-				<a name="about"></a>
 				<img src="images/about-blk.png" class="title" /><br>
 				<img src="images/ariele.jpg" class="img-circle" alt="Profile photo" />
-				<p>Greetings from Brooklyn! I am a Web Design student at Startup Institute New York.</p><br>
+				<p>Greetings from Brooklyn! I am currently a Web Design student at Startup Institute New York and an aspiring UX/UI Designer with a love for front-end development.</p><br>
 				<p>My background includes a BA in Psychology from Bryn Mawr College and experience in non-profit development and education. When I'm not finagling with ems and converting hex to RGB (and back again), I can be found stargazing, drinking tea, or hanging out in cat cafes.</p><br>
 				<p>Interested in working with me? <a href="#contact" class="smoothScroll">Contact</a> me for more information!</p>
 			</div>
+			<!--Portfolio-->
 			<div class="contentbox" id="portfolio">
-				<a name="portfolio"></a>
-				<img src="images/portfolio.png" class="title" /><br>
-				<a href="http://www.arielemartinez.com/cheese/" target="_blank"><img src="images/sammies.png" /></a>
-				<p>Cheese Sammies: Development and UX/UI Design</p>
-				<a href="http://www.campusperks.co" target="_blank"><img src="images/cp.png" /></a>
-				<p>Campus Perks: Development and UX/UI Design</p>
-			</div> <!--End about-->
+				<img src="images/portfolio.png" class="title" />
+				<div class="hover11">
+					<figure>
+						<a href="http://www.campusperks.co" target="_blank"><img src="images/cp.png" class="center" /></a>
+					</figure>
+					<p>Campus Perks: UX/UI Design and Front-End Development</p>
+				</div>
+				<div class="hover11">
+					<figure>
+						<a href="http://www.arielemartinez.com/cheese/" target="_blank"><img src="images/sammies.png" class="center" /></a>
+					</figure>
+					<p>Cheese Sammies: UX/UI Design and Front-End Development</p>
+				</div>
+			</div>
+			
+			<!--Resume-->
 			<div class="contentbox" id="resume">
-				<a name="resume"></a>
 				<img src="images/resume.png" class="title" /><br>
-				<h3>Education</h3>
+				<img src="images/resume-imgcrop.png" class="center" />
+<!-- 				<h3>Education</h3>
 				<p>Bryn Mawr College, Bryn Mawr, PA</p>
 				<p>Major in Psychology, Minor in Biology</p>
 				<p><em>A.B., May 2013</em></p>
@@ -66,18 +76,17 @@
 				<p>Practical Learning Center, Brooklyn, NY</p>
 				<p>June 2013 - August 2013</p>
 				<p><em>Assistant Teacher</em></p>
-				<p>&bull; Facilitated Nursery and Pre-Kindergarten classes in tandem with head teacher; taught basic numbers, shapes, colors, and arithmetic; encouraged motor development through song and dance.</p>
+				<p>&bull; Facilitated Nursery and Pre-Kindergarten classes in tandem with head teacher; taught basic numbers, shapes, colors, and arithmetic; encouraged motor development through song and dance.</p> -->
 			</div>
-			<!--Contact Form-->
-			<div class="contentbox">
-				<a name="contact"></a>
+
+			<div class="contentbox" id="contact">
 				<img src="images/contact.png" class="title" /><br>
 				<p>Feel free to contact me via e-mail at acmartine[at]gmail.com. You can also find my chronicles on Twitter as <a href="http://www.twitter.com/arielebydesign">@arielebydesign</a> or, if you're in a more formal mood, on <a href="http://www.linkedin.com/in/arielemartinez" target="_blank">LinkedIn</a>.</p>
 			</div>
 		</div><!--End right div-->
 
-	</div><!--End container div-->
+	 </div><!--End container div-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script type="text/javascript" src="smoothscroll.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
 </body>
 </html>

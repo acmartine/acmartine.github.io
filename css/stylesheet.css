@@ -1,0 +1,237 @@
+/*MEDIA QUERIES TO WRITE:
+Width greater than 1024 px: width of nav = 10%;
+Width greater than 768px: show as it is now;
+*/
+* { 
+	box-sizing:border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h3{
+    font-family: 'Source Sans Pro';
+}
+form{
+    font-family: 'Source Sans Pro';
+}
+.img-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    display: block;
+}
+.title{
+    margin: 3em auto 1em auto;
+    display: block;
+}
+/*#container{
+	width: 100%;
+	margin: 0 auto;
+}*/
+#left{
+    width: 15%;
+    float: left;
+    position: fixed;
+    height: 100%;
+	background-color: #dabf9c; /*E09C01*/
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+}
+@media (min-width:1100px){
+    #left{
+    width: 10%;
+    float: left;
+    position: fixed;
+    height: 100%;
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    text-align: center;
+    }
+}
+nav a.round{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1em;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000
+}
+nav a.round:hover{
+	color: #fff;
+    text-decoration: none;
+    background-color: #333;
+    transition: .3s;
+}
+nav ul{
+	list-style: none; 
+	padding: 0; 
+	margin: 0;
+}
+nav li{
+    display: inline-block;
+	padding: 10px 0;
+}
+footer{
+    margin-top: 2em;
+}
+footer li{
+    display: inline-block;
+}
+#right{
+	float: right;
+	display: block;
+	width: 85%;
+}
+@media(min-width:1100px){
+    #right{
+    float: right;
+    display: block;
+    width: 90%;
+    }
+}
+#right a{
+    color: #dabf9c;
+    text-decoration: none;
+}
+#right a:hover{
+    color: #333;
+    transition: .5s;
+}
+#header{
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 310px;
+    padding-top: 3em;
+    text-align: center;
+}
+#header p{
+    font-family: 'Source Sans Pro';
+    font-size: 1.3em;
+    color: #dabf9c;
+    letter-spacing: 0.65px;
+    line-height: 31px;
+}
+#contact{
+    padding-bottom: 100px;
+}
+.contentbox {
+    padding: 10px;
+}
+.contentbox p{
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #333;
+}
+.center{
+    display: block;
+    margin: 1em auto;
+}
+/* Portfolio img hover effect*/
+.hover11 figure img {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+    opacity: .5;
+}
+#portfolio p{
+    text-align: center;
+    font-size: 1.1em;
+}
+/*Social Icons*/
+@font-face {
+    font-family: 'si';
+    src: url('soc-icons/socicon.eot');
+    src: url('soc-icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('soc-icons/socicon.woff') format('woff'),
+         url('soc-icons/socicon.ttf') format('truetype'),
+         url('soc-icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+.soc {
+    overflow: hidden;
+    margin: 0; padding: 0;
+    list-style: none;
+}
+.soc li {
+    display: inline-block;
+    zoom: 1;
+}
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #999;
+    background-color: #000000;
+}
+.soc a:hover {
+    z-index: 2;
+    background-color:#363636 !important;
+}
+.soc-icon-last{
+    margin:0 !important;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-email1:before {
+    content:'<';
+}
+/*End CSS for social icons*/
