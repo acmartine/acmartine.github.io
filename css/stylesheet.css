@@ -9,8 +9,18 @@ body{
     padding: 0;
     margin: 0;
 }
-h3{
-    font-family: 'Source Sans Pro';
+@font-face{
+    font-family: "Ailerons";
+    src: url(Ailerons.otf);
+}
+.logo{
+    font-family: 'Ailerons', 'Source Sans Pro';
+    color: #dabf9c;
+    font-size: 4.5em;
+}
+.head{
+    font-family: 'Ailerons', 'Source Sans Pro';
+    font-size: 50px;
 }
 form{
     font-family: 'Source Sans Pro';
@@ -22,11 +32,12 @@ form{
     margin: 1em auto;
     display: block;
 }
+/*
 .title{
     margin: 3em auto 1em auto;
     display: block;
 }
-/*#container{
+#container{
 	width: 100%;
 	margin: 0 auto;
 }*/
