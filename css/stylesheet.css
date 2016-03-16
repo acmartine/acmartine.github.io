@@ -10,8 +10,8 @@ body{
     margin: 0;
 }
 @font-face{
-    font-family: "Ailerons";
-    src: url(Ailerons.otf);
+    font-family: Ailerons;
+    src: url("Ailerons.otf") format("opentype");
 }
 .logo{
     font-family: 'Ailerons', 'Source Sans Pro';
