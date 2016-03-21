@@ -1,110 +1,142 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cheese Sammies: Boston's Greatest Food Truck</title>
+	<title>Cheese Sammies</title>
 	<link rel="shortcut icon" href="cheese.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Custom CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/styles-bs.css">
+	<!--Google Fonts-->
 	<link href='https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Sintony' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-	<div class="container">
-		<div id="navigation">
-			<ul>
-				<li><a href="#top" class="smoothScroll">Home</a></li>
-				<li><a href="#about" class="smoothScroll">About</a></li>
-				<li><a href="#menu" class="smoothScroll">Menu</a></li>
-				<li><a href="#contact" class="smoothScroll">Locations</a></li>
-				<li><a href="https://cheesesammies.wordpress.com" target="_blank">Blog</a></li>
-				<li><a href="http://www.twitter.com/cheesesammies" target="_blank">Twitter</a></li>
-			</ul>
-		</div><!--Close navigation-->
-		<div id="banner">
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#about" class="smoothScroll">About</a>
+					</li>
+					<li>
+						<a href="#menu" class="smoothScroll">Menu</a>
+					</li>
+					<li>
+						<a href="#locations" class="smoothScroll">Location Schedule</a>
+					</li>
+					<li>
+						<a href="https://cheesesammies.wordpress.com" target="_blank">Blog</a>
+					</li>
+					<li>
+						<a href="http://www.twitter.com/cheesesammies" target="_blank">Twitter</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav> 
+
+	<!--Page Content-->
+	<div class="container" id="banner">
+		<div class="row">
 			<a name="top"></a>
 			<h1>Cheese Sammies</h1>
-			<p>Customizable grilled cheese sandwiches in 10 minutes or less</p>
+			<p>Boston's &#35;1 Grilled Cheese on Wheels</p>
 			<hr>
-			<h2>Today's Location:</h2>
+			<h2>Today's Location</h2>
 			<p id="locale"></p>
-		</div><!--Close banner-->
-		<div id="main">
-			<a name="about"></a>
-			<h2>About</h2>
-			<img src="images/bryan.png" class="img-circle" />
-			<p>Born and raised in East Boston, Bryan has been a grilled cheese aficionado since his younger days. Over time, he began to experiment with different combinations of ingredients, ultimately winning Boston's 5th annual Cheese Grilldown contest in 2009. A few years ago, he quit his day job in video production to start Cheese Sammies and share his creations with the city. Stop by Cheese Sammies and make your lunch hour a little more fun!</p>
 		</div>
-		<div id="menu">
-			<h2>Menu</h2><a name="menu"></a>
-			<h3>Build your own sandwich</h3>
-			<p>1 Cheese, No toppings &mdash; $8</p>
-			<p>2 Cheese, No toppings &mdash; $10</p>
-			<p>+$1 to add a topping (max 3)</p>
-			<div id="menucont">
-			<div class="menucol">
-			<img src="images/bread-128-cream.png" />
-			<h3>Bread</h3>
-			<ul>
-				<li>Sourdough</li>
-				<li>White</li>
-				<li>Rye</li>
-			</ul>
-		</div>
-		<div class="menucol">
-			<img src="images/cheese-128-cream.png" />
-			<h3>Cheese</h3>
-			<ul>
-				<li>Cheddar</li>
-				<li>Swiss</li>
-				<li>Mozzarella</li>
-				<li>Brie</li>
-				<li>Blue Cheese</li>
-			</ul>
-			</div>
-			<div class="menucol">
-			<img src="images/tomato-128-cream.png" />
-			<h3>Toppings</h3>
-			<ul>
-				<li>Bacon</li>
-				<li>Roast Beef</li>
-				<li>Roasted Turkey</li>
-				<li>Roasted Chicken</li>
-				<li>Caramelized Onions</li>
-				<li>Tomato</li>
-				<li>Avocado</li>
-				<li>Mushrooms</li>
-				<li>Pickles</li>
-				<li>Arugula</li>
-			</ul>
-			</div>
-			<div class="menucol">
-			<img src="images/soda-bottle-128-cream.png" />
-			<h3>Drinks</h3>
-			<ul>
-				<li>Pop $1</li>
-				<li>Lemonade $3</li>
-				<li>Italian Soda $3</li>
-			</ul>
-			</div></div>
-		<div id="clear"></div>
-		<div id="locations">
-			<a name="contact"></a>
-			<h2>Location Schedule</h2>
-			<ul>
-				<li>Mondays: Downtown - City Hall Plaza, Fisher Park</li>
-				<li>Tuesdays &amp; Thursdays: South End - Harrison Ave and East Concord St, by BMC</li>
-				<li>Wednesdays &amp; Fridays: Back Bay - Trinity Place</li>
-				<li>Saturdays: Dudley Square at Dudley Street</li>
-			</ul>
-		</div><!--Close locations-->
-		<div id="footer">
-			Copyright 2015 Cheese Sammies. Make your inner child happy.
-			Email <a href="mailto:info@cheesesammies.com">info@cheesesammies.com</a>
-		</div><!--Close footer-->
-	</div><!--This is an extra to "close" the menu div. Delete if needed-->
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script type="text/javascript" src="js/smoothscroll.js"></script>
-	<script type="text/javascript" src="js/date.js"></script>
+	<div class="col-sm-12" id="about">
+		<h1>Our Story</h1>
+		<img src="images/bryan.png" class="img-circle" />
+		<p>Winner of Boston's 2009 Cheese Grilldown Contest, Bryan was born and raised in East Boston. Over time, he began to experiment with different combinations of ingredients, ultimately leaving his day job in video production to start Cheese Sammies and share his creations with the city. Stop by Cheese Sammies and make your lunch hour a little more fun!</p>
+	</div>
+	<div class="row">
+		<div class="col-sm-12" id="menu">
+			<div class="row">
+				<h1>Menu</h1>
+				<h2>Build your own sandwich</h2>
+				<p>1 Cheese, No toppings &mdash; $8</p>
+				<p>2 Cheese, No toppings &mdash; $10</p>
+				<p>&plus;$1 to add a topping (max 3)</p>
+			</div><!--close row-->
+			<div class="row">
+				<div class="col-sm-3" id="menucol">
+					<img src="images/bread-128-cream.png" />
+					<h3>Bread</h3>
+					<ul>
+						<li>Sourdough</li>
+						<li>White</li>
+						<li>Rye</li>
+					</ul>
+				</div>
+				<div class="col-sm-3" id="menucol">
+					<img src="images/cheese-128-cream.png" />
+					<h3>Cheese</h3>
+					<ul>
+						<li>Cheddar</li>
+						<li>Swiss</li>
+						<li>Mozzarella</li>
+						<li>Brie</li>
+						<li>Blue Cheese</li>
+					</ul>
+				</div>
+				<div class="col-sm-3" id="menucol">
+					<img src="images/tomato-128-cream.png" />
+					<h3>Toppings</h3>
+					<ul>
+						<li>Bacon</li>
+						<li>Roast Beef</li>
+						<li>Roasted Turkey</li>
+						<li>Roasted Chicken</li>
+						<li>Caramelized Onions</li>
+						<li>Tomato</li>
+						<li>Avocado</li>
+						<li>Mushrooms</li>
+						<li>Pickles</li>
+						<li>Arugula</li>
+					</ul>
+				</div>
+				<div class="col-sm-3" id="menucol">
+					<img src="images/soda-bottle-128-cream.png" />
+					<h3>Drinks</h3>
+					<ul>
+						<li>Pop $1</li>
+						<li>Lemonade $3</li>
+						<li>Italian Soda $3</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" id="locations">
+				<h1>Location Schedule</h1>
+				<ul>
+					<li>Mondays: Downtown - City Hall Plaza, Fisher Park</li>
+					<li>Tuesdays &amp; Thursdays: South End - Harrison Ave and East Concord St, by BMC</li>
+					<li>Wednesdays &amp; Fridays: Back Bay - Trinity Place</li>
+					<li>Saturdays: Dudley Square at Dudley Street</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-sm-12" id="footer">
+			&copy; 2015 Cheese Sammies.
+			Email <a href="mailto:info@cheesesammies.com">info@cheesesammies.com</a>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script type="text/javascript" src="js/date.js"></script>
 	</body>
 	</html>

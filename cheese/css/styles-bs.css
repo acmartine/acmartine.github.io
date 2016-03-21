@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+}
+html{
+	height: 75%;
+}
+body {
+	font-family: Sintony;
+	background-color: #000;
+	height: 100%;
+	padding-top: 50px;
+}
+.container{
+	height: 100%;
+}
+.navbar{
+	background-color: #000;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+/*Main Banner*/
+#banner {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	background-image: url("../images/hi-res-veggie.jpg");
+	background-size: cover;
+	/*background-position: 0 50%;*/
+	background-attachment: fixed;
+	padding-top: 100px;
+}
+#banner h1 {
+	font-family: 'IM Fell Great Primer SC';
+	font-size: 5em;
+	color: #FFFCF0;
+	letter-spacing: .06em;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 5px 5px #333333;
+	margin-top: 0;
+}
+#banner p {
+	color: #FFFCF0;
+	font-weight: 400;
+	font-size: 1.3em;
+	text-align: center;
+	text-shadow: 1px 2px #333;
+}
+hr{
+	background-image: linear-gradient(to right, rgba(255,255,255,0.75), rgba(0,0,0,0), rgba(255,255,255,255.75));
+	border: 0;
+	height: 2px;
+	width: 25%;
+	margin: 2em auto;
+}
+/*Main Section*/
+.img-circle{
+	border-radius: 50%;
+}
+#about{
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	padding-bottom: 20px;
+}
+#about h1,h2{
+	font-family: 'IM Fell Great Primer SC';
+	color: #fff;
+	text-align: center;
+}
+#about p{
+	font-size: 1.1em;
+	text-align: center;
+	max-width: 75%;
+	display: inline-block;
+	line-height: 1.5em;
+}
+#menu{
+	background-image: url("../images/herbs-ov.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#menu h1{
+	color: #fff;
+	font-family: 'IM Fell Great Primer SC';
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#locations{
+	color: #fff;
+	text-align: center;
+	background-color: #000;
+	padding-bottom: 30px;
+}
+#locations h1{
+	font-family: 'IM Fell Great Primer SC';
+}
+#locations ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/*Footer*/
+#footer {
+	background-color: #3C3B41;
+	color: #fff;
+	text-align: center;
+}
+#footer a:link {
+	color: #AED8B0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#footer a:hover {
+	color: #BA6325;
+	text-decoration: none;
+}
+#footer a:active {
+	color: yellow;
+}
+#footer a:visited {
+	color: #81CDF0;
+	text-decoration: none;
+}
