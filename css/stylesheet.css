@@ -15,7 +15,7 @@ body{
 }
 .logo{
     font-family: 'Ailerons', 'Source Sans Pro';
-    color: #dabf9c;
+    color: #EDD0AA;
     font-size: 4.5em;
 }
 .head{
@@ -32,12 +32,7 @@ form{
     margin: 1em auto;
     display: block;
 }
-/*
-.title{
-    margin: 3em auto 1em auto;
-    display: block;
-}
-#container{
+/*#container{
 	width: 100%;
 	margin: 0 auto;
 }*/
@@ -127,7 +122,7 @@ footer li{
 #header p{
     font-family: 'Source Sans Pro';
     font-size: 1.3em;
-    color: #dabf9c;
+    color: #82725D;
     letter-spacing: 0.65px;
     line-height: 31px;
 }
@@ -147,6 +142,10 @@ footer li{
 .center{
     display: block;
     margin: 1em auto;
+}
+.center2{
+    display: inline-block;
+    margin: 0 auto;
 }
 /* Portfolio img hover effect*/
 .hover11 figure img {
