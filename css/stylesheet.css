@@ -160,6 +160,9 @@ footer li{
     text-align: center;
     font-size: 1.1em;
 }
+#gallery {
+    margin-left: 15%;
+}
 /*Social Icons*/
 @font-face {
     font-family: 'si';
