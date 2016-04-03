@@ -1,84 +1,112 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Ariele Martinez - UX/UI &amp; Front-End Developer</title>
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-	<link href="css/lightbox.css" rel="stylesheet">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ariele Martinez - UX/UI Design &amp; Front-End Development</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<body>
-	<div id="container">
-		<div id="left">
-			<nav>
-				<li><a href="#about" class="round smoothScroll">About</a></li>
-				<li><a href="#portfolio" class="round smoothScroll">Portfolio</a></li>
-				<li><a href="#resume" class="round smoothScroll">Resume</a></li>
-				<li><a href="#contact" class="round smoothScroll">Contact</a></li>
-			</nav>
-			<footer>
-				<li><a href="http://www.twitter.com/arielebydesign" target="_blank"><img src="images/twitter.png"></a></li>
-				<li><a href="http://www.linkedin.com/in/arielemartinez" target="_blank"><img src="images/linkedin.png"></a></li>
-				<li><a href="http://www.github.com/acmartine" target="_blank"><img src="images/github.png"></a></li>
-			</footer>
-		</div>
-		<!--End left div-->
-		<!--Begin right div-->
-		<div id="right">
-			<div class="contentbox" id="header">
-				<span class="logo">Ariele Martinez</span>
-				<p>UX/UI Design &amp; Front-End Development</p>
-			</div>
-			<div class="contentbox" id="about">
-				<span class="head">About</span>
-				<img src="images/ariele.jpg" class="img-circle" alt="Profile photo"/>
-				<p>I am a graduate of Startup Institute NY's Web Design Track and a UX/UI Designer with a love for front-end development.</p><br>
-				<p>My background includes a BA in Psychology from Bryn Mawr College and experience in non-profit development and education. When I'm not tinkering with code, I can be found stargazing, drinking tea, or hanging out in cat cafes.</p><br>
-				<p>Interested in working with me? <a href="#contact" class="smoothScroll">Contact</a> me for more information!</p>
-			</div>
-			<!--Portfolio-->
-			<div class="contentbox" id="portfolio">
-				<span class="head">Portfolio</span>
-				<div class="hover11">
-					<figure>
-						<a href="http://www.arielemartinez.com/cp" target="_blank"><img src="images/cp.png" class="center" /></a>
-					</figure>
-					<p>Campus Perks: UX/UI Design, Front-End Development, Creative Direction</p>
-				</div>
-				<div class="hover11">
-					<figure>
-						<a href="http://www.arielemartinez.com/cheese/" target="_blank"><img src="images/sammies.png" class="center" /></a>
-					</figure>
-					<p>Cheese Sammies: UX/UI Design, Front-End Development, Creative Direction</p>
-				</div>
-				<div class="hover11">
-					<div id="gallery">
-					<figure>
-						<a href="images/bm-01.png" data-lightbox="beermenus" data-title="Customizable Tap Takeover Design"><img src="images/bm-01-th.png" /></a>
-						<a href="images/bm-02.png" data-lightbox="beermenus" data-title="Table Tent Design"><img src="images/bm-02-th.png" /></a>
-						<a href="images/bm-03.png" data-lightbox="beermenus" data-title="Table Tent Design"><img src="images/bm-03-th.png" /></a>
-						<a href="images/bm-04.png" data-lightbox="beermenus" data-title="Table Tent Design"><img src="images/bm-04-th.png" /></a>
-					</figure>
-				</div>
-					<p>BeerMenus: POS Material Design</p>
-			</div>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/lightbox.css" rel="stylesheet">
 
-				<!--Resume-->
-				<div class="contentbox" id="resume">
-					<span class="head">Resume</span>
-					<img src="images/ux-resume.png" class="center" />
-				</div>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+    <!-- NAVIGATION-->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">Ariele Martinez</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-				<div class="contentbox" id="contact">
-					<span class="head">Contact</span>
-					<p>Feel free to contact me via e-mail at acmartine[at]gmail.com. You can also find my chronicles on Twitter as <a href="http://www.twitter.com/arielebydesign">@arielebydesign</a> or connect with me on <a href="http://www.linkedin.com/in/arielemartinez" target="_blank">LinkedIn</a>.</p>
-				</div>
-			</div><!--End right div-->
+    <div class="jumbotron">
+      <h1>creating beautiful, efficient digital experiences</h1>
+  </div>
+  <!--ABOUT-->
+  <div class="container" id="about">
+    <h1>About Me</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <img src="img/itsme.jpg" class="img-responsive img-circle" />
+        </div>
+        <div class="col-md-6" id="bio">
+            <p>I am a graduate of Startup Institute NY's Web Design Track and a UX/UI Designer with a love for front-end development.</p>
+            <p>My background includes a BA in Psychology from Bryn Mawr College and experience in non-profit development and education. When I'm not tinkering with code, I can be found stargazing, drinking tea, or hanging out in cat cafes.</p>
 
-		</div><!--End container div-->
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/smoothscroll.js"></script>
-		<script type="text/javascript" src="js/lightbox.js"></script>
-	</body>
-	</html>
+            <p>Interested in working with me? <a href="#contact">Contact me</a> for more information!</p>
+            <a href="MartinezUXResume.pdf" target="_blank">VIEW FULL RESUME</a>
+        </div>
+    </div>
+</div>
+<!--PORTFOLIO-->
+<div class="container" id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="http://www.arielemartinez.com/cp" target="_blank">
+                <img src="img/cp.png" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="http://www.arielemartinez.com/cheese" target="_blank">
+                <img src="img/sammies.png" class="img-responsive" />
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="img/bm-01.png" data-lightbox="beermenus" data-title="Customizable Tap Takeover Design"><img src="img/bm.png" class="img-responsive" /></a>
+            <a href="img/bm-02.png" data-lightbox="beermenus" data-title="Table Tent Design"></a>
+            <a href="img/bm-03.png" data-lightbox="beermenus" data-title="Table Tent Design"></a>
+            <a href="img/bm-04.png" data-lightbox="beermenus" data-title="Table Tent Design"></a>
+        </div>
+    </div><!--end row-->
+</div>
+<!--CONTACT-->
+<div class="container" id="contact">
+    <h1>Contact</h1>
+    <p>Feel free to contact me via e-mail at acmartine[at]gmail.com. You can also find my chronicles on Twitter as <a href="http://www.twitter.com/arielebydesign" target="_blank">&#64;arielebydesign</a> or connect with me on <a href="http://www.linkedin.com/in/arielemartinez" target="_blank">LinkedIn</a>.</p>
+    <!--include linkedin, twitter, github, angellist, email-->
+</div>
+<!--FOOTER-->
+<div class="footer">
+    <p>&copy;2016 ariele martinez. made with love in brooklyn, powered by the imperium silver crystal.</p>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/lightbox.js"></script>
+</body>
+</html>
