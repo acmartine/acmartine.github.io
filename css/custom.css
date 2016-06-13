@@ -33,17 +33,17 @@ body {
 	margin-left: 0.5em;
 	font-size: 48px;
 }
-.container #about {
+.container-fluid #about {
 	padding: 20px;
 }
-.container h1 {
+.container-fluid h1 {
 	font-family: 'aileronsregular';
 	text-align: center;
 }
-.container a {
+.container-fluid a {
 	color: #C28E8E;
 }
-.container p {
+.container-fluid p {
 	font-size: 1.2em;
 }
 .img-circle {
