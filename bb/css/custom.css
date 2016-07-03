@@ -41,6 +41,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 100px;
+	z-index: -3000;
 }
 #banner h1 {
 	font-size: 5em;
