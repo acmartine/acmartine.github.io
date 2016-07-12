@@ -6,7 +6,7 @@ body {
 	border: none;
 }
 .navbar-default .navbar-brand {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Palanquin', cursive;
 	font-size: 2em;
 	color: #555; /*or rgb(85,85,85)*/
 	text-transform: uppercase;
@@ -29,7 +29,7 @@ body {
 	padding: 20px;
 }
 .container-fluid h1 {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Palanquin', cursive;
 	text-align: center;
 	text-transform: uppercase;
 }
