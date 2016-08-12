@@ -20,6 +20,9 @@ body {
 .jumbotron {
 	background-color: #C28E8E;
 	color: #FFF;
+	background-image: url('../img/pink-fleurs.jpg');
+    background-size: cover;
+    height: 150px;
 }
 .jumbotron h1 {
 	margin-left: 0.5em;
