@@ -20,8 +20,16 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 }
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-brand a:hover,
+.navbar-default .navbar-brand a:focus {
+	color: #e1caac;
+}
+.navbar-default .navbar-nav > li > a {
     color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e1caac;
 }
 @media (min-width: 768px) {
     .navbar .navbar-nav {
@@ -37,7 +45,7 @@ body {
 #banner {
 	height: 100%;
 	width: 100%;
-	background-image: url("../img/breads.jpg");
+	background-image: url("../img/sweets.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 100px;
@@ -45,6 +53,7 @@ body {
 }
 #banner h1 {
 	font-size: 5em;
+	font-family: "Yellowtail";
 	color: #FFFCF0;
 	letter-spacing: .06em;
 	text-transform: uppercase;
@@ -62,6 +71,8 @@ body {
 /*Main Section*/
 .img-circle{
 	border-radius: 50%;
+	height: 250px;
+	width: 250px;
 }
 .content {
 	color: #fff;
