@@ -5,9 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Boule Bakery</title>
   <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -27,7 +27,6 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a class="navbar-brand topnav" href="#">Boule Bakery</a>
      </div>
      <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse" id="navbar">
@@ -55,7 +54,7 @@
   <div class="row">
    <h1>Boule Bakery</h1>
    <p>Artisanal Baked Goods</p>
-   <p>est. 1989</p>
+   <p>est. 2010</p>
  </div>
 </div>
 <div class="container-fluid content" id="phil">
@@ -66,7 +65,7 @@
   </div>
   <div class="col-sm-7">
     <p>
-      Since 1989, Boule Bakery has been dedicated to the craft of making the finest baked goods around. Owner BAKER'S NAME has been in the business since 1970. We use only the highest-quality flours, sugar, cage-free eggs, and hormone-free dairy in our goods. Visit us for your next special occasion!
+      Since 2010, Boule Bakery has been dedicated to the craft of making the finest baked goods around. Owner Linda Pan has been baking ever since she got an Easy Bake Oven as a child, and is a graduate of the Institute of Culinary Education. We use only the highest-quality flours, sugar, cage-free eggs, and hormone-free dairy in our goods. Visit us for your next special occasion!
     </p>
   </div>
 </div>
@@ -251,17 +250,22 @@
 </div>
 <div class="row">
   <div class="col-lg-3 col-md-4 col-xs-6">
-   <img class="img-responsive thumb" src="img/cookie.jpg" />
- </div>
- <div class="col-lg-3 col-md-4 col-xs-6">
-   <img class="img-responsive thumb" src="img/croissant-2.jpg" />
- </div>
- <div class="col-lg-3 col-md-4 col-xs-6">
-   <img class="img-responsive thumb" src="img/loaf.jpeg" />
- </div>
- <div class="col-lg-3 col-md-4 col-xs-6">
-   <img class="img-responsive thumb" src="img/cinnaroll.jpeg" />
- </div>
+    <a href="#myToggle" class="panel">
+     <img class="img-responsive thumb" src="img/cookie.jpg" />
+   </a>
+   <div id="myToggle" class="cap-overlay hide">
+    <h5>Cookies</h5>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+ <img class="img-responsive thumb" src="img/croissant-2.jpg" />
+</div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+ <img class="img-responsive thumb" src="img/loaf.jpeg" />
+</div>
+<div class="col-lg-3 col-md-4 col-xs-6">
+ <img class="img-responsive thumb" src="img/cinnaroll.jpeg" />
+</div>
 
 </div><!--close row-->
 </div><!--close gallery-->
@@ -279,7 +283,7 @@
    Closed Monday - Wednesday<br />
    <h3><a href="http://www.yelp.com/biz/breakin-bread-bakery-philadelphia" target="_blank">Visit us on Yelp</a></h3>
    <div class="centerBlock">
-     <div id="yelpwidget"></div>
+     <img src="img/yelp-2c.png" />
    </div>
  </div>
  <div class="col-sm-6">
@@ -293,8 +297,6 @@
 <script src="js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-
-<script>(function() { var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("breakin-bread-bakery-philadelphia","300","RED","y","n","0");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();</script>
+<script type="text/javascript" src="js/jquery.hcaptions.js"></script>
 </body>
 </html>
