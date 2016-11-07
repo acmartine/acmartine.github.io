@@ -47,6 +47,7 @@ body {
 	color: #C28E8E;
 }
 .container-fluid p {
+	font-family: 'Palanquin', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
