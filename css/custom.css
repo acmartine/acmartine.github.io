@@ -24,13 +24,15 @@ body {
 .jumbotron {
 	background-color: #C28E8E;
 	color: #FFF;
-	background-image: url('../img/pink-fleurs.jpg');
     background-size: cover;
-    height: 90px;
+}
+.jumbotron-main {
+	background-image: url('../img/pink-fleurs.jpg');
+	height: 90px;
 }
 .jumbotron h1 {
-	margin-left: 0.5em;
 	font-size: 48px;
+	text-align: center;
 }
 .container-fluid #about {
 	padding: 20px;
@@ -105,9 +107,19 @@ body {
 .caption p {
 	font-style: italic;
 }
+.projnav {
+	font-size: 24px;
+}
+.projnav:hover {
+	text-decoration: none;
+}
 #contact{
 	max-width: 80%;
 	padding-bottom: 100px;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 25%;
 }
 .footer {
 	background-color: #7F3338;
