@@ -21,8 +21,8 @@ body {
     letter-spacing: 1px;
 }
 .jumbotron {
-	background-color: #D1D7E7;
-	background-image: url('../img/bg7.jpeg');
+	background-color: rgb(174, 181, 199);
+	background-image: url('../img/bg2.jpg');
 	background-size: cover;
 	color: #FFF;
 }
@@ -47,11 +47,11 @@ body {
 	margin-bottom: 1em;
 }
 .container-fluid a {
-	color: rgb(160,166,158);
+	color: rgb(174, 181, 199);
 	transition: all 0.3s ease-out;
 }
 .container-fluid a:hover {
-	color: rgba(160,166,158,0.75);
+	color: rgba(174, 181, 199, 0.75);
 	text-decoration: none;
 }
 .container-fluid a:active, a:focus, a:visited {
@@ -77,14 +77,14 @@ body {
 	vertical-align: center;
 }
 #portfolio {
-	background-color: rgb(241, 236, 242);
+	background-color: #FEC9B9;
 	padding-bottom: 50px;
 }
 .thumbnail { 
 	position: relative; 
 	overflow: hidden; 
 	cursor: pointer; 
-	background-color: #c1bdc2;
+	background-color: #FEC9B9;
 	border: none;
 	border-radius: 0px;
 }
@@ -133,7 +133,7 @@ body {
 	text-align: right;
 }
 .btn-demo {
-	background-color: rgb(209,168,205);
+	background-color: rgb(174, 181, 199);
 	border-radius: 35px;
 	color: #FFF !important;
 	font-size: 1.8em;
@@ -144,7 +144,7 @@ body {
 	transition: 0.3s all;
 }
 .btn-demo:hover {
-	background-color: rgba(209,168,205,0.8);
+	background-color: rgba(174, 181, 199, 0.8);
 }
 #contact{
 	max-width: 80%;
@@ -165,7 +165,7 @@ body {
 }
 .footer {
 	background-color: #E0DEEB;
-	background-image: url('../img/bg7.jpeg');
+	background-image: url('../img/bg2.jpg');
 	color: rgba(0,0,0,0.5);
 	height: 50px;
 	padding: 20px 20px 50px;
